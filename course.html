@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Corso</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="navbar">
+<a href="courses.html">← Torna ai corsi</a>
+</div>
+<div class="container">
+<h1 id="title"></h1>
+<div id="lesson"></div>
+<button id="nextBtn" onclick="nextLesson()">Avanti</button>
+<div id="quiz" class="hidden">
+<h2>Quiz Finale</h2>
+<p id="question"></p>
+<input id="answer">
+<button onclick="checkQuiz()">Invia</button>
+<p id="result"></p>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
